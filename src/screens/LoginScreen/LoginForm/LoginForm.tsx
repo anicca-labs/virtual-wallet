@@ -102,7 +102,7 @@ const LoginForm = () => {
             color: "$text-subtle",
             onPress: toggleSecureTextEntryEnabled,
           }}
-          onSubmitEditing={methods.handleSubmit(handleSubmit)}
+          onSubmitEditing={() => methods.handleSubmit(handleSubmit)()}
         />
       </Form>
       <Spacer size={"$button-lg"} />

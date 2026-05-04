@@ -127,7 +127,7 @@ const DateTimeInput = ({
         leftIconProps={leftIconProps}
         containerProps={containerProps}
         value={valueToShow}
-        editable={false}
+        readOnly={true}
         {...baseTextInputProps}
       />
       {isPickerVisible ? (

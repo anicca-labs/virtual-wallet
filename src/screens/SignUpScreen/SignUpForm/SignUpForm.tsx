@@ -140,7 +140,7 @@ const SignUpForm = () => {
             color: "$text-subtle",
             onPress: togglePasswordSecureTextEntryEnabled,
           }}
-          onSubmitEditing={methods.handleSubmit(handleSubmit)}
+          onSubmitEditing={() => methods.handleSubmit(handleSubmit)()}
         />
 
         <Spacer size={"$md"} />
@@ -161,7 +161,7 @@ const SignUpForm = () => {
             color: "$text-subtle",
             onPress: toggleConfPasswordSecureTextEntryEnabled,
           }}
-          onSubmitEditing={methods.handleSubmit(handleSubmit)}
+          onSubmitEditing={() => methods.handleSubmit(handleSubmit)()}
         />
       </Form>
 

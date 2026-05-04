@@ -80,7 +80,7 @@ const ForgotPasswordForm = () => {
           autoCapitalize="none"
           textContentType={"emailAddress"}
           returnKeyType={"done"}
-          onSubmitEditing={methods.handleSubmit(handleSubmit)}
+          onSubmitEditing={() => methods.handleSubmit(handleSubmit)()}
         />
       </Form>
       <Spacer size={"$3xl"} />

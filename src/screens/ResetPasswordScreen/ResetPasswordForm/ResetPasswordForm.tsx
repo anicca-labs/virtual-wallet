@@ -89,7 +89,7 @@ const ResetPasswordForm = () => {
             color: "$text-subtle",
             onPress: togglePasswordSecureTextEntryEnabled,
           }}
-          onSubmitEditing={methods.handleSubmit(handleSubmit)}
+          onSubmitEditing={() => methods.handleSubmit(handleSubmit)()}
         />
 
         <Spacer size={"$md"} />
@@ -110,7 +110,7 @@ const ResetPasswordForm = () => {
             color: "$text-subtle",
             onPress: toggleConfPasswordSecureTextEntryEnabled,
           }}
-          onSubmitEditing={methods.handleSubmit(handleSubmit)}
+          onSubmitEditing={() => methods.handleSubmit(handleSubmit)()}
         />
       </Form>
 

@@ -1,9 +1,8 @@
 import type { ColorTokens, InputProps, XStackProps } from "tamagui";
 
-import type { ForwardedRef, Ref } from "react";
+import type { ComponentRef, ForwardedRef, Ref } from "react";
 
 import { Input, Spacer } from "tamagui";
-import { useColorTokenValue } from "@ksairi-org/react-native-ui-config";
 import { BaseTouchable } from "@ksairi-org/ui-touchables";
 import { BodyRegularMd, BodyRegularSm } from "@fonts";
 import { BaseIcon, BaseIconProps } from "@icons";
@@ -41,7 +40,7 @@ const BaseTextInput = (
     description,
     ...inputProps
   }: BaseTextInputProps,
-  ref?: ForwardedRef<typeof Input>,
+  ref?: ForwardedRef<ComponentRef<typeof Input>>,
 ) => (
   <>
     {labelText ? (
@@ -75,10 +74,10 @@ const BaseTextInput = (
       ) : null}
 
       <Input
-        ref={ref as unknown as Ref<Input>}
+        ref={ref as Ref<ComponentRef<typeof Input>>}
         unstyled={true}
         color={"$text-body"}
-        placeholderTextColor={useColorTokenValue("$text-body")}
+        placeholderTextColor={"$text-body"}
         textAlign={"left"}
         paddingVertical={"$sm"}
         paddingHorizontal={"$sm"}
