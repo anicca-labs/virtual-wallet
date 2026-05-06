@@ -1,6 +1,8 @@
 // This is the base Tamagui config for this monorepo
 // It is used by the tamagui CLI to generate typings based on this project's configuration
 
+import { defaultConfig } from "@tamagui/config/v5";
+import { animations } from "@tamagui/config/v5-rn";
 import { typedKeys } from "@ksairi-org/typescript-functions";
 import { createTamagui, createTokens } from "tamagui";
 import { themes } from "./themes";
@@ -10,6 +12,8 @@ const keyOfFirstTheme = typedKeys(themes)[0];
 const color = themes[keyOfFirstTheme];
 
 const tamaguiConfig = createTamagui({
+  ...defaultConfig,
+  animations,
   themes,
   tokens: createTokens({
     color,
