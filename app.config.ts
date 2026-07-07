@@ -127,7 +127,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       },
     ],
     "expo-router",
-    "@stripe/stripe-react-native",
+    [
+      "@stripe/stripe-react-native",
+      {
+        merchantIdentifier: process.env.STRIPE_MERCHANT_IDENTIFIER,
+      },
+    ],
     [
       "expo-local-authentication",
       {

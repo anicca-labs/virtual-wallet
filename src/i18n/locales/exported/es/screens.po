@@ -13,11 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:109
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:110
 msgid "0.00"
 msgstr ""
 
-#: ../../screens/ProfileScreen/ProfileScreen.tsx:245
+#: ../../screens/ProfileScreen/ProfileScreen.tsx:246
 msgid "AI Assistant"
 msgstr ""
 
@@ -27,11 +27,15 @@ msgstr ""
 msgid "Already have an account? Log in"
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:105
+#: ../../screens/WalletScreen/WalletScreen.tsx:178
+msgid "Amount"
+msgstr ""
+
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:106
 msgid "Amount (USD)"
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:83
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:84
 msgid "Available balance"
 msgstr ""
 
@@ -45,8 +49,12 @@ msgid "Continue to App"
 msgstr "Continuar a la App"
 
 #: ../../screens/SignUpScreen/SignUpForm/SignUpForm.tsx:175
-#: ../../screens/SignUpScreen/SignUpScreen.tsx:37
+#: ../../screens/SignUpScreen/SignUpScreen.tsx:35
 msgid "Create Account"
+msgstr ""
+
+#: ../../screens/WalletScreen/WalletScreen.tsx:191
+msgid "Date"
 msgstr ""
 
 #: ../../screens/ForgotPasswordScreen/ForgotPasswordForm/ForgotPasswordForm.tsx:77
@@ -56,7 +64,7 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-#: ../../screens/LoginScreen/LoginScreen.tsx:124
+#: ../../screens/LoginScreen/LoginScreen.tsx:122
 msgid "Enter your email and password to login."
 msgstr ""
 
@@ -76,7 +84,7 @@ msgstr "Nombre Completo"
 msgid "HomeScreen"
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:115
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:116
 msgid "Insufficient funds."
 msgstr ""
 
@@ -85,11 +93,11 @@ msgid "Last Name"
 msgstr ""
 
 #: ../../screens/LoginScreen/LoginForm/LoginForm.tsx:124
-#: ../../screens/LoginScreen/LoginScreen.tsx:116
+#: ../../screens/LoginScreen/LoginScreen.tsx:114
 msgid "Login"
 msgstr ""
 
-#: ../../screens/WalletScreen/WalletScreen.tsx:49
+#: ../../screens/WalletScreen/WalletScreen.tsx:115
 msgid "My Wallet"
 msgstr ""
 
@@ -97,7 +105,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: ../../screens/WalletScreen/WalletScreen.tsx:86
+#: ../../screens/WalletScreen/WalletScreen.tsx:158
 msgid "No transactions yet."
 msgstr ""
 
@@ -111,16 +119,16 @@ msgstr ""
 msgid "Prompt"
 msgstr ""
 
-#: ../../screens/WalletScreen/WalletScreen.tsx:56
+#: ../../screens/WalletScreen/WalletScreen.tsx:129
 msgid "Recent Transactions"
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:93
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:94
 msgid "Recipient email"
 msgstr ""
 
-#: ../../screens/ForgotPasswordScreen/ForgotPasswordScreen.tsx:43
-#: ../../screens/ResetPasswordScreen/ResetPasswordScreen.tsx:92
+#: ../../screens/ForgotPasswordScreen/ForgotPasswordScreen.tsx:41
+#: ../../screens/ResetPasswordScreen/ResetPasswordScreen.tsx:90
 msgid "Reset your password for your account."
 msgstr ""
 
@@ -132,11 +140,11 @@ msgstr ""
 msgid "Send"
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:123
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:128
 msgid "Send Money"
 msgstr ""
 
-#: ../../screens/ProfileScreen/ProfileScreen.tsx:256
+#: ../../screens/ProfileScreen/ProfileScreen.tsx:257
 msgid "Sign Out"
 msgstr "Salir"
 
@@ -145,19 +153,20 @@ msgstr "Salir"
 msgid "Submit"
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:55
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:56
 msgid "Success"
 msgstr ""
 
-#: ../../screens/WalletScreen/WalletScreen.tsx:69
+#: ../../screens/WalletScreen/WalletScreen.tsx:82
+#: ../../screens/WalletScreen/WalletScreen.tsx:174
 msgid "Transaction"
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:61
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:62
 msgid "Transfer failed. Please try again."
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:132
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:134
 msgid "Transfers are instant and irreversible."
 msgstr ""
 
@@ -165,6 +174,6 @@ msgstr ""
 msgid "WelcomeScreen"
 msgstr ""
 
-#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:99
+#: ../../screens/SendMoneyScreen/SendMoneyScreen.tsx:100
 msgid "you@example.com"
 msgstr ""
