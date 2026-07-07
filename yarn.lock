@@ -17,6 +17,238 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@anicca-labs/expo-image@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@anicca-labs/expo-image@npm:0.1.2"
+  peerDependencies:
+    expo-image: "*"
+  checksum: 10c0/b44f0502978e848911e109a10a9a570cbb465417bdce0f9b1b8b27b2e9023a23c782022f948b53e6a0a45486a7ae64cc2ab8611b20b277775a6d5990f98bc6a7
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/figma-tamagui-generator@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "@anicca-labs/figma-tamagui-generator@npm:0.1.3"
+  dependencies:
+    axios: "npm:^1.16.0"
+  bin:
+    figma-tamagui-sync: cli.ts
+  checksum: 10c0/55521d6f6798fbcef87326532b239228ec3909a7ff61d77dae42511489f705b9dc3142499f6fdadb1196e4c0cb772d8b7f5a156b5b05a0f4c535baeb7f7360b3
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-auth-client@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/react-auth-client@npm:0.1.1"
+  peerDependencies:
+    "@supabase/supabase-js": "*"
+  checksum: 10c0/19291cdfd2cc9e8e92e1b22767d47ba6a11aab229447d018577f445bbc4cadfd04d9ce485f1c5875377e7146fc33204e22e8e8cf4a3d8fb9b1a18d18e247ec4c
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-auth-core@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/react-auth-core@npm:0.1.1"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/ee75b76561a38462c3b44e12f6fc68369a32e613e6ebd087beca0e4238ffee537297a12b7a8ae1a53f968b631fb6ede6702bca2600c0f6adf6d57a1e1af23a3f
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-auth-hooks@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@anicca-labs/react-auth-hooks@npm:0.1.2"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/4e58b2e57c6003c3e30cfe39c403e46dcef64e10b8c536eb69e340b5c1f4249f6dbcacb9e057abef4a0d981b45f91347ce2319a9a025bd1857a9365802825162
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-auth-setup@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/react-auth-setup@npm:0.1.1"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/37a90211459a438441a562d45d3b21dfcab7b56da997b1a60e7124e6ff3173b7e16da1327f585c1ac553f62a66582ab34d4a6a4310bd5eb43771e15674c6cd63
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-auth-storage@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@anicca-labs/react-auth-storage@npm:0.1.2"
+  peerDependencies:
+    react: "*"
+    react-native-mmkv: "*"
+    zustand: "*"
+  checksum: 10c0/6dec0c41d9eaf784e61d0933d8d045fb9d4356b15878b13a8ea7112ec07566ae8e104dd8616e1226428a0e8bc9e2681058479869e180ce1c06572ef9144b5dfd
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-form@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@anicca-labs/react-form@npm:0.1.2"
+  peerDependencies:
+    "@hookform/resolvers": "*"
+    react: "*"
+    react-hook-form: "*"
+  checksum: 10c0/e9c8648a5238872f73a192f4e33beb8a951d0e8099f41aa57c55380f63e2cd553df321141728a1e3f159a93e92c9e3f53aa83758b2869ddb402c328ef67d68be
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-hooks@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/react-hooks@npm:0.1.1"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/30d715160b68ca726d20964d3c40fc75f6195be50c01cf9b0222c2d742bca8cf232a49f12328c306dfe59aed155a06f9d5a34198beadd06acb6f8679d558f988
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-native-auth-apple@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/react-native-auth-apple@npm:0.1.1"
+  peerDependencies:
+    "@invertase/react-native-apple-authentication": "*"
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/9feaa264b16599cbbf44e5831b068b6357d70856e13f401326f9d231b0a852cbbcfbbc2da2f294d4b29635900e8281dd6fb90d0b13d8bcfc96fa05d46a178793
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-native-auth-google@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/react-native-auth-google@npm:0.1.1"
+  peerDependencies:
+    "@react-native-google-signin/google-signin": "*"
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/ba7f3d4e3a128e924a0098988b5c68c71ec1f8010f197d86f179e2e9af872a8550e3fef8558eca1bb2470b9d4f88a55704f72fe4f90df86d51f33422c284c9be
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-native-functions@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/react-native-functions@npm:0.1.1"
+  peerDependencies:
+    react-native: "*"
+    react-native-reanimated: "*"
+  checksum: 10c0/7c581703f54d574114c66c010a0b9f2e1a15a40e6eddec3faf350167c6efef2ce5597374cd5e6587698fb5f0dc8da2ca1f745b62c3d8bc46b1881f6bc02a1794
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-native-hooks@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/react-native-hooks@npm:0.1.1"
+  peerDependencies:
+    "@react-native-community/netinfo": "*"
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/2ed738411a1ddce6a066739af0d2b9225755f5467d5aa0de07e3bab13a8d0b8860f4c1fa84b50d93e8cfef1990d15291889d57e4f80a9b58d13e8d995cb3125b
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-native-splash-view@npm:^0.1.3":
+  version: 0.1.12
+  resolution: "@anicca-labs/react-native-splash-view@npm:0.1.12"
+  peerDependencies:
+    expo-splash-screen: "*"
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/d43ec444a8eba6aa12b5a47f6dd6a27ffca5c2d7a0657727ca98d1799432d1e4a8bf0a9e82e817b4acf9073cd4697671b9ee277b4e80331ace077ba86f0fdd67
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-native-ui-config@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "@anicca-labs/react-native-ui-config@npm:0.1.3"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    tamagui: "*"
+  checksum: 10c0/31f8d1e52cf756df6f1310875704937663f82b2bc1aca314da8f574c4bb51b38c4232691e1136397f9c87eadc7de91ca89a168cdaa37c895af86705e0b3623b0
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/react-query-sdk@npm:^0.1.2":
+  version: 0.1.3
+  resolution: "@anicca-labs/react-query-sdk@npm:0.1.3"
+  peerDependencies:
+    "@tanstack/react-query": "*"
+    axios: "*"
+    react: "*"
+  checksum: 10c0/36963981a2c063becb0ae78254bbb03e8aac7e7221397368c727fd3d7c2759840e96b6f0d9f4b4b656e8a92c04ef2da6d8d3bf0bda3e0847af51a079c345859f
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/typescript-functions@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/typescript-functions@npm:0.1.1"
+  checksum: 10c0/65dbbe459a546b47f4b96d7f4170570fbdf37072a9da69bb11c1a367cc45b0a350635ebdf5c34a60bc9cf099a85f3ef6c255a3c69d24ec08a23401f22f3e35fa
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/ui-action-buttons@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@anicca-labs/ui-action-buttons@npm:0.1.1"
+  peerDependencies:
+    "@anicca-labs/ui-containers": "*"
+    react: "*"
+    react-native: "*"
+    tamagui: "*"
+  checksum: 10c0/7c7812caf3940be6d8a7a29a071ebf13873ec4f07fc5f98b89bc3af96f809dd4fc4bcae95616e1f653e227f7dfe790dc7f6b2ac6613243f216e700fe8d779567
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/ui-button-animated@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "@anicca-labs/ui-button-animated@npm:0.1.5"
+  peerDependencies:
+    "@anicca-labs/react-native-ui-config": "*"
+    "@anicca-labs/ui-touchables": "*"
+    react: "*"
+    react-native: "*"
+    react-native-reanimated: "*"
+    tamagui: "*"
+  checksum: 10c0/ae4ea0ff7ecb08b36e1d86a1f347685b18ab8834dd8b6ec3bdb94e8ad786c239173c46b4b1b1a3aa963310e19a84d71cbaf3faf07f0615ff568d3fd75c7bc59f
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/ui-button@npm:^0.1.10":
+  version: 0.1.12
+  resolution: "@anicca-labs/ui-button@npm:0.1.12"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    tamagui: "*"
+  checksum: 10c0/4bc20384d13890be0d556a9d90b2591b5994b6e7a27a2d56a824215ad7da30861208f3f8183f48575271ad561f2555bcbbba36aaae7eedd7b373f71aa0e0dd58
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/ui-containers@npm:^0.1.11":
+  version: 0.1.12
+  resolution: "@anicca-labs/ui-containers@npm:0.1.12"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    react-native-keyboard-controller: "*"
+    react-native-safe-area-context: "*"
+    tamagui: "*"
+  checksum: 10c0/fe2fc9afb9395603f25d04e4117059047eb02382a7962570c8854d7907f8b6d342350f5f46c437c281602bdea94b45e09e85f08c1085aa90821c7f2e47680dac
+  languageName: node
+  linkType: hard
+
+"@anicca-labs/ui-touchables@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@anicca-labs/ui-touchables@npm:0.1.4"
+  peerDependencies:
+    "@anicca-labs/react-native-hooks": "*"
+    react: "*"
+    react-native: "*"
+    tamagui: "*"
+  checksum: 10c0/e7aedb44f4078552a7e0e8fde5da00c0dc4330d96942fda7c6d13f8ccd1f984a0fc4dee0751e55a8d134193d39187e3e3fa388c0cd30a35c1ef9572aaf99e6db
+  languageName: node
+  linkType: hard
+
 "@apidevtools/json-schema-ref-parser@npm:14.0.1":
   version: 14.0.1
   resolution: "@apidevtools/json-schema-ref-parser@npm:14.0.1"
@@ -3664,238 +3896,6 @@ __metadata:
   peerDependencies:
     jsep: ^0.4.0||^1.0.0
   checksum: 10c0/d50c9eb28d1872e333a5229b66ae6347aa4333a5fac4a8fff86c585a78acff6d8ed2184554b8dc888df70786a272deba530ccfdb216b6abff7f1ab48df3248e7
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/expo-image@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@ksairi-org/expo-image@npm:0.1.2"
-  peerDependencies:
-    expo-image: "*"
-  checksum: 10c0/eb2efe1c809a2eb83b4b832d7575d9a915976f0bf5f35ca46cf896b559bbfe14f18e86ebc3e9c9c2b4d73cd64f0d4dcb80471bcd1490bbf0d14ffd5b55fa5bdb
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/figma-tamagui-generator@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@ksairi-org/figma-tamagui-generator@npm:0.1.3"
-  dependencies:
-    axios: "npm:^1.16.0"
-  bin:
-    figma-tamagui-sync: cli.ts
-  checksum: 10c0/525ad7c33dadaf04de1c31033e3075786608ba41337cb34ab8d284d15bd6088d1b8c2768a10fe2e3d85c3c6e196df7195b6718f33eb3eb7436891c481cecf3ba
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-auth-client@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/react-auth-client@npm:0.1.1"
-  peerDependencies:
-    "@supabase/supabase-js": "*"
-  checksum: 10c0/fd6bdc7a4ee001e04ac71b65dfc61d8d9f264fa54bf937f7ccf7d278e27d50e851e58eaa7a2c9f823642cf9b50aad022e5e9a12321416908485346a6ee1f5636
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-auth-core@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/react-auth-core@npm:0.1.1"
-  peerDependencies:
-    react: "*"
-  checksum: 10c0/0790579452721a668938770078efdff8818e1368dabf8215e9f7cb62ab250b21c7d7a19bc3794eab24fdce469d8908d0b73df726308a8b91bcb8ac488e94bc7f
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-auth-hooks@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@ksairi-org/react-auth-hooks@npm:0.1.2"
-  peerDependencies:
-    react: "*"
-  checksum: 10c0/809a6b4a599dfc1a1bb57f4cde585593032c7846b5f2eee277a8814823d5a360204f50cd9c724b6648a623977a4d6c2ea20a3861a8909c6b88eef9df1aa46ef9
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-auth-setup@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/react-auth-setup@npm:0.1.1"
-  peerDependencies:
-    react: "*"
-  checksum: 10c0/6ce0f405a51f042859ce66d1c0f6c81086145c0cc7a95d5d7b5a0e30b9342d8e11bfa0e3db6b31d2096756d2e247c01e6fa59698a7efbf72df0becf09a335778
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-auth-storage@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@ksairi-org/react-auth-storage@npm:0.1.2"
-  peerDependencies:
-    react: "*"
-    react-native-mmkv: "*"
-    zustand: "*"
-  checksum: 10c0/2aa71cf089f6a08c06422f4096ac0d6c438a1eca012cff47076c75638799af59631f639dc0e9443e84564371e0e611fada670c6372d7f8f633a78e3941c1ee2c
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-form@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@ksairi-org/react-form@npm:0.1.2"
-  peerDependencies:
-    "@hookform/resolvers": "*"
-    react: "*"
-    react-hook-form: "*"
-  checksum: 10c0/898c86a059b5bb4343fddd0e851de95595b5f29176f0a490a0c1b56cdcb204ec20f131888d528d0577681a017194a3d93cf8a0baffdc8357afc3ac8fb1606ef6
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-hooks@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/react-hooks@npm:0.1.1"
-  peerDependencies:
-    react: "*"
-  checksum: 10c0/1f03521508f1851deeddbc69377bba7d9e50b7120d9ba38565c69cd468bcd34e271b2b4d1874ec71417ca13742206004356a81eb8a6c59245ff7289293a3437f
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-native-auth-apple@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/react-native-auth-apple@npm:0.1.1"
-  peerDependencies:
-    "@invertase/react-native-apple-authentication": "*"
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/af0b25d8c1e2193def2cec860e4a565ba1bc21de2e534e5209a47160c47b271640a156e22f8137bc21fd95b94a4f14292192669af3ea0e9e4c9a97dedc3d4aad
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-native-auth-google@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/react-native-auth-google@npm:0.1.1"
-  peerDependencies:
-    "@react-native-google-signin/google-signin": "*"
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/7cee8c68b1e20a17221d944c29e34c939cfb177b970c71c1e212ecee87c3da914a9ceda7977b7f69d9154075daf52d421cfb970d6258ecdd9f1a8c9ce2d17cbb
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-native-functions@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/react-native-functions@npm:0.1.1"
-  peerDependencies:
-    react-native: "*"
-    react-native-reanimated: "*"
-  checksum: 10c0/fbaafd597e5732d932f93b0a2c5fa4804e1a4431fa88bdd4fbfb9fb36570efec5ed632f686ffb5159fd06a8deb29aaf3cdac6de565fa813a4e3ed0943a3cb13e
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-native-hooks@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/react-native-hooks@npm:0.1.1"
-  peerDependencies:
-    "@react-native-community/netinfo": "*"
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/1b5a3e93cdf17baf29557a2320a605f079dc658cb6509442c78633b723f374b18281e3e9e000c821538b5c7f78ed36f2ae72cb25ccaaf3b60c175f9bc3586ed3
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-native-splash-view@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@ksairi-org/react-native-splash-view@npm:0.1.3"
-  peerDependencies:
-    expo-splash-screen: "*"
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/443702d84a187012df1235125555ccb71cf4f2a2e9e984a9528eda33c63d30d56d60d02d18613f855f4df5425cab367ac74a6cacaad7ea490e58374f1880dffb
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-native-ui-config@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@ksairi-org/react-native-ui-config@npm:0.1.3"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    tamagui: "*"
-  checksum: 10c0/3a351a6477b7a50fd299a7ab5983913e5b276baba0a9accfe15a309ad34d02c753cfb5a0f0928ed886cd6fc9f54f73fed870086a86b98f15ee60a98363c23d76
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/react-query-sdk@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@ksairi-org/react-query-sdk@npm:0.1.2"
-  peerDependencies:
-    "@tanstack/react-query": "*"
-    axios: "*"
-    react: "*"
-  checksum: 10c0/f26dd964feaf9f828ab0cc8866ce5f27ab8984765c17306eef8500ef8ebc89aef1cdb736b39006a82177863fc2dff0df42354760f20611cfcb380db3966b301a
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/typescript-functions@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/typescript-functions@npm:0.1.1"
-  checksum: 10c0/d887a1c12a4e44afa6e5490e63bb288168dbe4b3f4a28653d758cc29a77a4ef3dde0285c43659e0390192edd6207af6b4b4ed8ce45cb2caadc35766cc35359bb
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/ui-action-buttons@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ksairi-org/ui-action-buttons@npm:0.1.1"
-  peerDependencies:
-    "@ksairi-org/ui-containers": "*"
-    react: "*"
-    react-native: "*"
-    tamagui: "*"
-  checksum: 10c0/3e37dbfd7bedbc1644510b6ab34394080f15d1a9e4e2a474e42ee7544ccf1a7df574bbb10549ba6eda272c02b9eb22fefd35d571b424fb3f7e0d3228b615ea44
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/ui-button-animated@npm:^0.1.5":
-  version: 0.1.5
-  resolution: "@ksairi-org/ui-button-animated@npm:0.1.5"
-  peerDependencies:
-    "@ksairi-org/react-native-ui-config": "*"
-    "@ksairi-org/ui-touchables": "*"
-    react: "*"
-    react-native: "*"
-    react-native-reanimated: "*"
-    tamagui: "*"
-  checksum: 10c0/2d3c9751e4ac0385db279f6c25ede2e5e9f0bf2e1ca28eadcfa2db8cba2478b0ed7410a3c1b2fcd2bbba477af243cd56cdb8e8330042ca26b270889e7973bf37
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/ui-button@npm:^0.1.10":
-  version: 0.1.10
-  resolution: "@ksairi-org/ui-button@npm:0.1.10"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    tamagui: "*"
-  checksum: 10c0/0d1f519bc3caff9dfdaeac00fa971085a5398c6155d10076e7ec0849114ccba126b183772f423180a53424494c0fff1285de3576f3b34982e73a0bb736cb127a
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/ui-containers@npm:^0.1.11":
-  version: 0.1.11
-  resolution: "@ksairi-org/ui-containers@npm:0.1.11"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-keyboard-controller: "*"
-    react-native-safe-area-context: "*"
-    tamagui: "*"
-  checksum: 10c0/6121dba40b338945b578bf7b9637a2fd214f4806c71ccbb49ea34c3c1e330bc0a3fe8c515b5cadd09faa2fdc0fc6ec7b1b81abf32d97631c70f84db5d9a297ef
-  languageName: node
-  linkType: hard
-
-"@ksairi-org/ui-touchables@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "@ksairi-org/ui-touchables@npm:0.1.4"
-  peerDependencies:
-    "@ksairi-org/react-native-hooks": "*"
-    react: "*"
-    react-native: "*"
-    tamagui: "*"
-  checksum: 10c0/47251909b7091653dc40c514e1011ab09fcc14ca05fc6bb42e7674f38943016239604aef3cc242f85fe39080156fdedc840ccac6eaab8856702b02db777175a9
   languageName: node
   linkType: hard
 
@@ -19673,6 +19673,28 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "virtual-wallet@workspace:."
   dependencies:
+    "@anicca-labs/expo-image": "npm:^0.1.2"
+    "@anicca-labs/figma-tamagui-generator": "npm:^0.1.3"
+    "@anicca-labs/react-auth-client": "npm:^0.1.1"
+    "@anicca-labs/react-auth-core": "npm:^0.1.1"
+    "@anicca-labs/react-auth-hooks": "npm:^0.1.2"
+    "@anicca-labs/react-auth-setup": "npm:^0.1.1"
+    "@anicca-labs/react-auth-storage": "npm:^0.1.2"
+    "@anicca-labs/react-form": "npm:^0.1.2"
+    "@anicca-labs/react-hooks": "npm:^0.1.1"
+    "@anicca-labs/react-native-auth-apple": "npm:^0.1.1"
+    "@anicca-labs/react-native-auth-google": "npm:^0.1.1"
+    "@anicca-labs/react-native-functions": "npm:^0.1.1"
+    "@anicca-labs/react-native-hooks": "npm:^0.1.1"
+    "@anicca-labs/react-native-splash-view": "npm:^0.1.3"
+    "@anicca-labs/react-native-ui-config": "npm:^0.1.3"
+    "@anicca-labs/react-query-sdk": "npm:^0.1.2"
+    "@anicca-labs/typescript-functions": "npm:^0.1.1"
+    "@anicca-labs/ui-action-buttons": "npm:^0.1.1"
+    "@anicca-labs/ui-button": "npm:^0.1.10"
+    "@anicca-labs/ui-button-animated": "npm:^0.1.5"
+    "@anicca-labs/ui-containers": "npm:^0.1.11"
+    "@anicca-labs/ui-touchables": "npm:^0.1.4"
     "@babel/core": "npm:^7.28.0"
     "@commitlint/cli": "npm:^19.8.1"
     "@commitlint/config-conventional": "npm:^19.8.1"
@@ -19680,28 +19702,6 @@ __metadata:
     "@gorhom/bottom-sheet": "npm:^5.2.9"
     "@hookform/resolvers": "npm:^5.2.1"
     "@invertase/react-native-apple-authentication": "npm:^2.4.1"
-    "@ksairi-org/expo-image": "npm:^0.1.2"
-    "@ksairi-org/figma-tamagui-generator": "npm:^0.1.3"
-    "@ksairi-org/react-auth-client": "npm:^0.1.1"
-    "@ksairi-org/react-auth-core": "npm:^0.1.1"
-    "@ksairi-org/react-auth-hooks": "npm:^0.1.2"
-    "@ksairi-org/react-auth-setup": "npm:^0.1.1"
-    "@ksairi-org/react-auth-storage": "npm:^0.1.2"
-    "@ksairi-org/react-form": "npm:^0.1.2"
-    "@ksairi-org/react-hooks": "npm:^0.1.1"
-    "@ksairi-org/react-native-auth-apple": "npm:^0.1.1"
-    "@ksairi-org/react-native-auth-google": "npm:^0.1.1"
-    "@ksairi-org/react-native-functions": "npm:^0.1.1"
-    "@ksairi-org/react-native-hooks": "npm:^0.1.1"
-    "@ksairi-org/react-native-splash-view": "npm:^0.1.3"
-    "@ksairi-org/react-native-ui-config": "npm:^0.1.3"
-    "@ksairi-org/react-query-sdk": "npm:^0.1.2"
-    "@ksairi-org/typescript-functions": "npm:^0.1.1"
-    "@ksairi-org/ui-action-buttons": "npm:^0.1.1"
-    "@ksairi-org/ui-button": "npm:^0.1.10"
-    "@ksairi-org/ui-button-animated": "npm:^0.1.5"
-    "@ksairi-org/ui-containers": "npm:^0.1.11"
-    "@ksairi-org/ui-touchables": "npm:^0.1.4"
     "@lingui/babel-plugin-lingui-macro": "npm:^5.4.1"
     "@lingui/cli": "npm:^5.4.1"
     "@lingui/conf": "npm:^5.4.1"

@@ -7,15 +7,15 @@ import { makeRedirectUri } from "expo-auth-session";
 import { Spacer } from "tamagui";
 import { useLingui, Trans } from "@lingui/react/macro";
 
-import { createHandledFormElement, Form } from "@ksairi-org/react-form";
-import { useBooleanState } from "@ksairi-org/react-hooks";
-import { BaseTouchable } from "@ksairi-org/ui-touchables";
+import { createHandledFormElement, Form } from "@anicca-labs/react-form";
+import { useBooleanState } from "@anicca-labs/react-hooks";
+import { BaseTouchable } from "@anicca-labs/ui-touchables";
 import { BaseTextInput, CTAButton } from "@molecules";
 import { LabelSemiboldLg } from "@fonts";
 import { RESET_PASSWORD_URL, forgotPasswordSchema } from "@constants";
 import { useGetFormMethods } from "@hooks";
 import { showAlert } from "@utils";
-import { supabase } from "@ksairi-org/react-auth-client";
+import { supabase } from "@anicca-labs/react-auth-client";
 import { useRouter } from "expo-router";
 
 const FormInput = createHandledFormElement<

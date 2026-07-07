@@ -1,6 +1,6 @@
 import { useUserStore } from "@stores";
 import { LabelSemiboldLg } from "@fonts";
-import { Containers } from "@ksairi-org/ui-containers";
+import { Containers } from "@anicca-labs/ui-containers";
 import { CTAButton } from "@molecules";
 import { Trans } from "@lingui/react/macro";
 import { useRouter } from "expo-router";

@@ -1,4 +1,4 @@
-import { supabase } from "@ksairi-org/react-auth-client";
+import { supabase } from "@anicca-labs/react-auth-client";
 import { BUCKET_NAME } from "@constants";
 
 const uploadImage = async (

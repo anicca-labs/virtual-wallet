@@ -3,7 +3,7 @@
 
 import { defaultConfig } from "@tamagui/config/v5";
 import { animations } from "@tamagui/config/v5-rn";
-import { typedKeys } from "@ksairi-org/typescript-functions";
+import { typedKeys } from "@anicca-labs/typescript-functions";
 import { createTamagui, createTokens } from "tamagui";
 import { themes } from "./themes";
 import { sizesSpaces, radius, fonts } from "./tokens";

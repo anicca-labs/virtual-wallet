@@ -10,14 +10,14 @@ React Native / Expo + Supabase app. For coding standards run `/expo-rn-plugin:co
 - Supabase `api` schema (not `public`)
 - Stripe for payments
 
-## Org libraries (`@ksairi-org/*`)
+## Org libraries (`@anicca-labs/*`)
 
 Source: `https://github.com/ksairi-org/ksairi-libs`. Run `/expo-rn-plugin:ksairi-libs` for the full reference before writing any hook, utility, or layout code.
 
-- **Auth:** `@ksairi-org/react-auth-*` — always use, never raw Supabase auth
-- **Forms:** `@ksairi-org/react-form` — all form fields; fallback Tamagui `Input` + `Label`
-- **UI:** `@ksairi-org/ui-touchables`, `@ksairi-org/expo-image`, `@ksairi-org/ui-containers`
-- **SDK:** `@ksairi-org/react-query-sdk` — orval config base; hooks generated into `src/api/generated/`
+- **Auth:** `@anicca-labs/react-auth-*` — always use, never raw Supabase auth
+- **Forms:** `@anicca-labs/react-form` — all form fields; fallback Tamagui `Input` + `Label`
+- **UI:** `@anicca-labs/ui-touchables`, `@anicca-labs/expo-image`, `@anicca-labs/ui-containers`
+- **SDK:** `@anicca-labs/react-query-sdk` — orval config base; hooks generated into `src/api/generated/`
 
 ## Design Token Sync (Figma → Tamagui)
 
@@ -29,7 +29,7 @@ and generate the token files following the structure in src/theme/:
   - themes.ts       → light/dark color themes as rgba() strings
   - tokens/sizesSpaces.ts → spacing scale with `true` key at the closest value to 16
   - tokens/radius.ts      → radius scale with `true` key at the closest value to 16
-Use @ksairi-org/figma-tamagui-generator for the extraction logic.
+Use @anicca-labs/figma-tamagui-generator for the extraction logic.
 ```
 
 Or run the CLI directly: `yarn sync-design-tokens`

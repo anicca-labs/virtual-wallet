@@ -3,7 +3,7 @@ import type { ColorTokens, InputProps, XStackProps } from "tamagui";
 import type { ComponentRef, ForwardedRef, Ref } from "react";
 
 import { Input, Spacer } from "tamagui";
-import { BaseTouchable } from "@ksairi-org/ui-touchables";
+import { BaseTouchable } from "@anicca-labs/ui-touchables";
 import { BodyRegularMd, BodyRegularSm } from "@fonts";
 import { BaseIcon, BaseIconProps } from "@icons";
 

@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
-import { SizingAnimatedButton } from "@ksairi-org/ui-button-animated";
-import type { SizingAnimatedButtonProps } from "@ksairi-org/ui-button-animated";
+import { SizingAnimatedButton } from "@anicca-labs/ui-button-animated";
+import type { SizingAnimatedButtonProps } from "@anicca-labs/ui-button-animated";
 
 type VariantButtonProps = Pick<
   SizingAnimatedButtonProps,

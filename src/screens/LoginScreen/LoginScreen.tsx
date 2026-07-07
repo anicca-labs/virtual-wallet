@@ -4,7 +4,7 @@ import { KeyboardAwareScrollView } from "react-native-keyboard-controller";
 import { Spacer } from "tamagui";
 
 import { LoginForm } from "./LoginForm";
-import { Containers } from "@ksairi-org/ui-containers";
+import { Containers } from "@anicca-labs/ui-containers";
 import React, { useEffect, useRef } from "react";
 
 import {
@@ -12,22 +12,22 @@ import {
   AppleSignInButtonHandle,
   AppleSignInError,
   AppleSignInResponse,
-} from "@ksairi-org/react-native-auth-apple";
+} from "@anicca-labs/react-native-auth-apple";
 
 import {
   GoogleSigninButton,
   GoogleSignInError,
   GoogleSignInResponse,
-} from "@ksairi-org/react-native-auth-google";
+} from "@anicca-labs/react-native-auth-google";
 
-import { useAppState } from "@ksairi-org/react-native-hooks";
-import { BaseTouchable } from "@ksairi-org/ui-touchables";
+import { useAppState } from "@anicca-labs/react-native-hooks";
+import { BaseTouchable } from "@anicca-labs/ui-touchables";
 import { HeadingBoldXl, BodyRegularXl, LabelSemiboldLg } from "@fonts";
 import { Trans } from "@lingui/react/macro";
 import { BaseIcon } from "@icons";
 import * as QueryParams from "expo-auth-session/build/QueryParams";
 import { showAlert } from "@utils";
-import { supabase } from "@ksairi-org/react-auth-client";
+import { supabase } from "@anicca-labs/react-auth-client";
 import { useLocalSearchParams, useRouter } from "expo-router";
 
 const styles = StyleSheet.create({
