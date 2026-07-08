@@ -99,5 +99,5 @@ jobs:
       - name: Build and Deploy to Apple App Store
         run: yarn deploy-store-ios ${{ inputs.environment }}
         env:
-          DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
+          DOPPLER_TOKEN: ${{ inputs.environment == 'prod' && secrets.DOPPLER_TOKEN_PROD || secrets.DOPPLER_TOKEN }}
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
