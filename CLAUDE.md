@@ -12,7 +12,7 @@ React Native / Expo + Supabase app. For coding standards run `/expo-rn-plugin:co
 
 ## Org libraries (`@anicca-labs/*`)
 
-Source: `https://github.com/ksairi-org/ksairi-libs`. Run `/expo-rn-plugin:ksairi-libs` for the full reference before writing any hook, utility, or layout code.
+Source: `https://github.com/anicca-labs/libs`. Run `/expo-rn-plugin:libs` for the full reference before writing any hook, utility, or layout code.
 
 - **Auth:** `@anicca-labs/react-auth-*` — always use, never raw Supabase auth
 - **Forms:** `@anicca-labs/react-form` — all form fields; fallback Tamagui `Input` + `Label`
