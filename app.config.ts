@@ -150,5 +150,5 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   experiments: {
     typedRoutes: true,
   },
-  owner: "ksairi-org",
+  owner: "anicca-labs",
 });
